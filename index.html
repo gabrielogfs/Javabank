@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt_br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaBank - Simulador de Empréstimo</title>
+
+</head>
+
+<body>
+
+    <main class="main_container">
+        <img src="img/mainImage.jpg" alt="Publicidade principal do JavaBank">
+        <div class="container_text">
+            <h1>Simule aqui seu empréstimo!</h1>
+            <h2>O JavaBank é o banco da galera Tech!</h2>
+            <p> Para você que está iniciando sua jornada na área de Tecnologia e
+                precisa
+                de uma graninha para montar seu Setup, dar um upgrade em seu local de trabalho, ou até mesmo começar sua
+                própria Startup.
+                <br>
+
+                Aproveite nossa promoção de lançamento e tenha a melhor taxa do mercado.
+            </p>
+            <br>
+            <p id="subtitle"><strong>Para solicitar seu empréstimo basta preencher as informações abaixo:</strong></p>
+
+
+            <form id="form_main" method="get" class="container_form">
+                Nome:
+                <input name="sub_nome" autocomplete="name" type="text" required>
+                Sobrenome:
+                <input name="sub_sobrenome" autocomplete="cc-family-name" type="text" required>
+                Data de Nascimento:
+                <input name="sub_nascimento" autocomplete="bday" type="date" required>
+                Celular:
+                <input name="sub_contato" autocomplete="tel" type="number" required>
+                E-mail:
+                <input name="sub_email" autocomplete="email" type="email" required>
+                Insira o valor que deseja simular:
+                <input name="sub_valor" autocomplete="name" type="number" required>
+                <input id="form_button" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
