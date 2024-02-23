@@ -1,10 +1,22 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
 
 body {
     background: black;
 }
 
 #form_main {
-    padding-top: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -14,9 +26,9 @@ body {
     padding: 1rem;
     margin-left: 1rem;
     margin-right: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(247, 198, 43) ;
+    background-color: rgb(250, 188, 53) ;
     border-radius: 5px;
+    text-align: justify;
 }
 
 .container_form {
@@ -26,12 +38,14 @@ body {
 
 .main_container {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.img_Simulador {
 width: 70%;
-height: 57rem;
+height: 68rem;
 border-radius: 5px;
+padding-left: 5rem;
 }
 
 body {
@@ -48,7 +62,31 @@ form input {
     height: 28px;
     background-color: black;
     border: solid 1px black;
-    color:rgb(247, 198, 43);
+    color:rgb(250, 188, 53);
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 8px;
+}
+
+#clear_button {
+    cursor: pointer;
+    width: 5rem;
+    height: 28px;
+    background-color: rgb(173, 173, 173);
+    border: solid 1px rgb(128, 126, 126);
+    color:rgb(22, 22, 20);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.sub_parcelas {
+    height: 2rem;
+}
+
+#container_btn {
+    display: flex;
 }
