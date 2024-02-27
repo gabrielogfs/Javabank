@@ -1,36 +1,3 @@
-// Primeira possibilidade
-
-/*
-let form = document.getElementById("form_main");
-form.addEventListener("submit", validarFormulario);
-
-function validarFormulario(e) {
-  //Cancelar o comportamento do evento
-  e.preventDefault();
-
-  //Obter o elemento a partir do disparo
-  let formulario = e.target
-
-  const dadosPreenchidos = {
-    nome: formulario.children[0].value,
-    sobrenome: formulario.children[1].value,
-    nascimento: formulario.children[2].value,
-    celular: formulario.children[3].value,
-    email: formulario.children[4].value,
-    valor: formulario.children[5].value
-  }
-
-  
-
-  console.log(dadosPreenchidos);
-  localStorage.setItem(formulario.children[0].value, JSON.stringify(dadosPreenchidos))
-}
-*/
-
-// Segunda possibilidade
-
-// Variável Global
-
 let form = document.getElementById("form_main");
 form.addEventListener("submit", validarFormulario);
 
@@ -134,18 +101,18 @@ function validarFormulario(e) {
   let txtParcela = document.getElementById("txtParcela");
   let txtTaxa = document.getElementById("txtTaxa");
 
-  txtParcela.innerText = formulario.children[6].value + "x de R$ " + resultadoParcelas;
+  txtParcela.innerText =
+    formulario.children[6].value + "x de R$ " + resultadoParcelas;
   txtEmprestimo.innerText = "Total a pagar: R$ " + valorTotalEmprestimo;
   txtTaxa.innerText = "Juros de " + resultadoJurosAplicado + "% ao mês.";
 
-  let btnclear = document.getElementById("clear_button")
+  let btnclear = document.getElementById("clear_button");
   btnclear.onclick = () => {
     txtParcela.innerText = "";
     txtEmprestimo.innerText = "";
     txtTaxa.innerText = "";
-  }
+  };
 
   // Armazena os inputs no LocalStorage
   localStorage.setItem(formulario.children[0].value, JSON.stringify(usuario1));
 }
-

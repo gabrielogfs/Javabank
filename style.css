@@ -1,92 +1,131 @@
 h1 {
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 h2 {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 25px;
-    
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 body {
-    background: black;
+  background: black;
 }
 
 #form_main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .container_text {
-    width: 25%;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    background-color: rgb(250, 188, 53) ;
-    border-radius: 5px;
-    text-align: justify;
+  width: 25%;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  background-color: rgb(250, 188, 53);
+  border-radius: 5px;
+  text-align: justify;
 }
 
 .container_form {
-    margin-top: 1rem;
-    text-align: justify; 
+  margin-top: 1rem;
+  text-align: justify;
 }
 
 .main_container {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .img_Simulador {
-width: 70%;
-height: 68rem;
-border-radius: 5px;
-padding-left: 5rem;
+  width: 70%;
+  height: 68rem;
+  border-radius: 5px;
+  padding-left: 5rem;
 }
 
 body {
-    margin: 0,5rem;
+  margin: 0, 5rem;
 }
 
 form input {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 #form_button {
-    cursor: pointer;
-    width: 5rem;
-    height: 28px;
-    background-color: black;
-    border: solid 1px black;
-    color:rgb(250, 188, 53);
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 8px;
+  cursor: pointer;
+  width: 5rem;
+  height: 28px;
+  background-color: black;
+  border: solid 1px black;
+  color: rgb(250, 188, 53);
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 8px;
 }
 
 #clear_button {
-    cursor: pointer;
-    width: 5rem;
-    height: 28px;
-    background-color: rgb(173, 173, 173);
-    border: solid 1px rgb(128, 126, 126);
-    color:rgb(22, 22, 20);
-    font-weight: bold;
-    border-radius: 5px;
+  cursor: pointer;
+  width: 5rem;
+  height: 28px;
+  background-color: rgb(173, 173, 173);
+  border: solid 1px rgb(128, 126, 126);
+  color: rgb(22, 22, 20);
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .sub_parcelas {
-    height: 2rem;
+  height: 2rem;
 }
 
 #container_btn {
-    display: flex;
+  display: flex;
+}
+
+.container_botao {
+  display: flex;
+  justify-content: center;
+}
+
+.container_fpag {
+  display: flex;
+  align-items: center;
+}
+.botao_fpag {
+  display: flex;
+  margin-left: 5rem;
+  cursor: pointer;
+  background-color: rgb(250, 188, 53);
+  border-radius: 3px;
+  font-size: 24px;
+  color: black;
+  height: 4rem;
+  width: 18rem;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.botao_fpag:hover{
+    color: rgb(250, 188, 53);
+    background-color: black;
+    border: solid 1px rgb(250, 188, 53);
+}
+
+.img_fpag {
+  padding-right: 2rem;
+  width: 52rem;
+  margin-top: 1rem;
+  border-radius: 8px;
 }
